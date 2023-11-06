@@ -1,0 +1,143 @@
+
+
+  .container {
+    display: flex;
+    background-color: black;
+    gap: 8px;
+    height: 60px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    flex-direction: end;
+
+
+}
+
+
+.seta {
+    padding: 20px;
+    width: 30px;
+    height: 30px;
+    background-image: url("");
+    background-size: contain;
+    /* Dimensiona a imagem para o tamanho da div */
+    cursor: pointer;
+    /* Deixa a seta clicavel */
+
+
+}
+
+
+.btn {
+    display: flex;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    padding: 8px 8px;
+    text-align: center;
+    font-weight: bold;
+    /* Negrito */
+    outline: none;
+    font-style: none;
+    border: none;
+    text-decoration: none;
+    /* tira o italico */
+    font-size: 25px;
+
+
+
+
+}
+
+.btnlogin {
+
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+
+
+}
+
+.container_btn {
+    display: flex;
+
+    padding: 30px 20px;
+    gap: 5px;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-style: none;
+
+
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    padding: 20px;
+    align-items: center;
+
+
+
+
+
+}
+
+.conteudofooter {
+    display: flex;
+    color: grey;
+    background-color: grey;
+    background-color: black;
+    align-items: center;
+    width: 100%;
+
+
+
+}
+
+.stylecompanhia {
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    /* Deixa a palavra clicavel */
+}
+
+.footerlista {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.stylespan {
+
+    display: block;
+    /* Faz com que os spans sejam exibidos em blocos */
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 0.1px;
+    cursor: pointer;
+    /* Deixa a palavra clicavel */
+
+    width: 60%;
+
+}
+
+.linha {
+    display: block;
+    border-color: grey;
+    margin-block-start: 0px;
+    border: 0px;
+    border-block-start: 0px solid var(--decorative-subdued, grey);
+    margin-block-end: var(--spacer-1, 1px);
+    padding: 0px;
+
+
+
+
+
+}

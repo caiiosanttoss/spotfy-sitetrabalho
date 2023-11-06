@@ -1,0 +1,92 @@
+.capa-album {
+    position: relative;
+    border-radius: 5%;
+    /* unidade relativa para a borda arredondada */
+    background-color: #282828;
+    padding: 5%;
+    border: 1px transparent #333;
+    margin: 5%;
+    /* Use uma margem relativa */
+    transition: background-color 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.play-button {
+    font-size: 30px;
+    color: #1DB954;
+    /* Cor do verde do Spotify */
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s;
+
+}
+
+
+.capa-album:hover {
+    background-color: #696767;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+
+}
+
+.capa-album:hover .overlay {
+    opacity: 1;
+
+}
+
+
+.postagem-footer {
+    margin-top: 5%;
+    display: grid;
+}
+
+.musica {
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    font-size: 2vw;
+    /* Use uma unidade relativa para o tamanho da fonte */
+    font-weight: 700;
+    flex-direction: column;
+}
+
+.subtitulo {
+    font-size: 1vw;
+    /* Use uma unidade relativa para o tamanho da fonte */
+    color: #dcd5d5;
+}
+
+.img {
+    border-radius: 5%;
+    max-width: 100%;
+    display: block;
+    transition: transform 0.3s;
+}
+
+
+/* Exemplo de media query para ajustar estilos em telas menores */
+@media screen and (max-width: 768px) {
+    .capa-album {
+        margin: 2%;
+        padding: 2%;
+    }
+
+    .musica,
+    .subtitulo {
+        font-size: 16px;
+        /* Voltando a um tamanho fixo para telas menores */
+    }
+}
