@@ -5,10 +5,10 @@
     background-color: black;
     gap: 8px;
     height: 60px;
-    justify-content: space-between;
+    justify-content: space-between;      /* Joga os links para o lado da tela */
     width: 100%;
     align-items: center;
-    flex-direction: end;
+   
 
 
 }
@@ -19,37 +19,46 @@
 
 .btn {
     display: flex;
-    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: grey;
     padding: 8px 8px;
     text-align: center;
     font-weight: bold;
     /* Negrito */
-    outline: none;
-    font-style: none;
+    outline: none; 
     border: none;
     text-decoration: none;
     /* tira o italico */
-    font-size: 25px;
+    font-size: 20px;
 
 
 
 
 }
 
+
+
+        
+    
 .btnlogin {
 
     padding: 10px 20px;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 15px;
+font-weight: bold;
+transition: background-color 0.3s, color 0.3s;
+transform: scale(1);
+}
 
-
+.btnlogin:hover {
+  
+    background-color: #dadada;
+    color: #0c0b0b; 
+    transform: scale(1.1); /* Aumenta a escala para 110% no hover */
 }
 
 .container_btn {
     display: flex;
-
     padding: 30px 20px;
     gap: 5px;
 

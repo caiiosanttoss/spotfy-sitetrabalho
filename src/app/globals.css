@@ -14,13 +14,12 @@ padding: 50px;
 
 }
 
-.pai {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-}
+
 .logo {
 
   cursor: pointer;
+padding: 10px;
+
 }
 .tudo {
 
