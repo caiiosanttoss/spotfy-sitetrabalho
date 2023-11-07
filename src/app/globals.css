@@ -5,44 +5,49 @@
   list-style: none;
 }
 
-.container {
-  background-color: #111010;
-  color: #fff;
-  padding: 20px;
+
+.pai{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+padding: 50px;
+ background-color: black
 
 }
 
 .pai {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+}
+.logo {
 
+  cursor: pointer;
+}
+.tudo {
+
+ display: flex;
 
 }
 
-.header {
-  font-size: 2vw;
-  background-color: #111010;
-  color: #fff;
-  margin-bottom: 2%;
-}
 
-/* Exemplo de media query para ajustar estilos em telas menores */
+
+  
+
+  /* Exemplo de media query para ajustar estilos em telas menores */
 @media screen and (max-width: 768px) {
-  .pai {
-    display: grid;
+    .pai{
+        display: grid;
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .header {
-    font-size: 5vh;
-    margin-bottom: 2%;
-  }
+    }
+    .header{
+        font-size: 5vh;
+        margin-bottom: 2%;
+    }
 
 }
 
  .App {
   height: calc(100vh - 90px);
-  background: rgb(41, 39, 39);
+  background: black
 
 }
 
@@ -88,12 +93,13 @@
   text-align: center;
   margin-top: 1rem;
   padding: 0.5rem 0.5rem;
-  border: 2px solid rgb(165, 161, 161) ;
+ 
   border-radius: 5px;
 }
 
 .idioma span {
-  display: block;
+  display: inline-block
+ 
 
 }
 
@@ -106,9 +112,8 @@ li {
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  &.active {
-    background: grey;
-  }
+ 
+  
   
   &:hover {
     color: white;
@@ -123,12 +128,8 @@ li {
 
 
 
- .outerWrap {
-  background: grey;
-  height: 100vh;
-  min-height: 100%;
-display: grid inline-block;
-}
+
+
 
 .musicControls {
   background: grey;

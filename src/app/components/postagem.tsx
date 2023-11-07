@@ -1,4 +1,8 @@
-import "./postagem.css";
+import "./postagem.css"
+
+
+
+
 
 interface PostagemProps {
 musica    : string;
@@ -20,8 +24,11 @@ export function Postagem(props: PostagemProps) {
          <p className="postagem-footer"> 
              <span className="musica" >{props.musica}</span>
              <span className="subtitulo">{props.subtitulo}</span>
+            
         </p>
      </div>
   );
 }
+
+
 

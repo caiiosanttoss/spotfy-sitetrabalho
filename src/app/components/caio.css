@@ -14,18 +14,7 @@
 }
 
 
-.seta {
-    padding: 20px;
-    width: 30px;
-    height: 30px;
-    background-image: url("");
-    background-size: contain;
-    /* Dimensiona a imagem para o tamanho da div */
-    cursor: pointer;
-    /* Deixa a seta clicavel */
 
-
-}
 
 
 .btn {
